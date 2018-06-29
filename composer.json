@@ -2,7 +2,7 @@
   "name": "tabusoft/cliManager",
   "description": "Simple cli manager wrapper for Aura cli",
   "type": "library",
-  "license": "license": "GPL-3.0+",
+  "license": "GPL-3.0+",
 
   "authors": [
     {
