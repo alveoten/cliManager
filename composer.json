@@ -1,0 +1,35 @@
+{
+  "name": "tabusoft/cliManager",
+  "description": "Simple cli manager wrapper for Aura cli",
+  "type": "library",
+  "license": "license": "GPL-3.0+",
+
+  "authors": [
+    {
+      "name": "Marco Tabucchi",
+      "email": "marco@tabucchi.it",
+      "role": "developer"
+    }
+  ],
+
+  "require": {
+    "php": "^7.0",
+    "aura/cli": "^2.0"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "^5.6",
+    "symfony/var-dumper": "^3.1"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Tabusoft\\CliManager\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tabusoft\\CliManager\\Tests\\": "tests/"
+    }
+  }
+}
